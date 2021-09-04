@@ -1,0 +1,26 @@
+{
+  "name": "auction-1",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hffxx/Auction.git"
+  },
+  "author": "M.H.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hffxx/Auction/issues"
+  },
+  "homepage": "https://github.com/hffxx/Auction#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
