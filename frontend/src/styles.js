@@ -6,8 +6,9 @@ export default makeStyles(() => ({
     margin: "30px 0",
     display: "flex",
     flexDirection: "row",
-    justifyContent: "center",
+    justifyContent: "flex-start",
     alignItems: "center",
+    padding: "10px",
   },
   heading: {
     color: "black",
