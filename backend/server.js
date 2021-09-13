@@ -5,13 +5,12 @@ import cors from "cors";
 import router from "./routes/posts.js";
 const app = express();
 
-app.use("/posts", router);
-
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 
 app.use(cors());
+app.use("/posts", router);
 
 const CONNECTION_URL =
   "mongodb+srv://hoffix123:lolz123@cluster0.jdu9c.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
